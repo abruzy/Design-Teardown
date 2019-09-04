@@ -49,9 +49,35 @@ position: relative;
     top: 50%;
     position: relative;
     }
+    .main-left-bottom {
+        background: rgb(177, 173, 173);
+        width: 50%;
+        float: left;
+        height: 600px;
+    }
+    .main-right-bottom {
+        background: rgb(119, 113, 113);
+        width: 50%;
+        float:right;
+        height: 600px;
+    }
+    
+    .main-left-bottom h1{
+    text-align: center;
+    top: 50%;
+    position: relative;
+    }
+    .main-right-bottom h1{
+        text-align: center;
+        top: 50%;
+        position: relative;
+        }
 nav{
     height: 200px;
     width: 100%;
     background: gray;
     color: #fff;
+}
+.main-container{
+    background: #F6F3F2;
 }
