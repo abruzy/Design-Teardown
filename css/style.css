@@ -335,4 +335,73 @@ nav .topic {
   margin: 21px 0;
   word-break: break-word;
 }
+.mini-card {
+  width: 80px;
+  height: 80px;
+  margin-left: 66px;
+  background-color: #bababa;
+  border-radius: 2px;
+  float: left;
+}
+.items{
+  display: flex;
+  width: 100%;
+}
+.mini-details h4 {
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  margin-left: 10rem;
+}
+.mini-details h1 {
+  margin-left: 10rem;
+}
+
+.mini-details p {
+  color: #333;
+  font-size: 21px;
+  line-height: 34px;
+  margin: 21px 0;
+  word-break: break-word;
+  margin-left: 10rem;
+  /* text-align: justify; */
+  margin-right: 6rem;
+}
+
+.middle-banner p {
+  top: 50%;
+  font-size: 20px;
+    line-height: 1.5;
+}
+
+.middle-box {
+  width: 270px;
+  height: 59px;
+  border-radius: 10px;
+  background-color: #d3d3d3;
+  margin-top: 1rem;
+}
+
+.middle-banner h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.middle-banner {
+  height: 500px;
+  background-color: #878787;
+  padding: 20px
+}
+.middle-bnr{
+  margin-left: 6rem;
+  width: 40%;
+  position:absolute;
+  margin-top: 4rem;
+}
+.middle-bnr h4{
+  margin-bottom: 2rem;
+}
 
