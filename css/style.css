@@ -10,6 +10,7 @@ body {
   background-color: #eee;
 }
 
+<<<<<<< HEAD
 nav span {
   color: #fff;
   font-size: 1.5rem;
@@ -459,4 +460,129 @@ footer{
 .footer-inner li a{
   text-decoration: none;
   color: white;
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  nav span {
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  nav ul {
+    width: 100%;
+    display: flex;
+    height: 150px;
+    padding: 0 2%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+  }
+  
+  nav .topic {
+    border: 1px solid #fff;
+    padding: 5px;
+  }
+  
+  
+h1{
+    font-weight: 700;
+    font-family: sans-serif;
+    
+}
+
+.main-left{
+    background: rgb(148, 142, 142);
+    width: 50%;
+    float: left;
+    height: 600px;
+    color: #fff;
+}
+.main-right{
+    background: rgb(158, 156, 156);
+    width: 50%;
+    float:right;
+    height: 600px;
+    color: #fff;
+}
+
+.main-left h1{
+text-align: center;
+top: 50%;
+position: relative;
+}
+.main-right h1{
+    text-align: center;
+    top: 50%;
+    position: relative;
+    }
+    .main-left-bottom {
+        background: rgb(177, 173, 173);
+        width: 50%;
+        float: left;
+        height: 600px;
+    }
+    .main-right-bottom {
+        background: rgb(119, 113, 113);
+        width: 50%;
+        float:right;
+        height: 600px;
+    }
+    
+    .main-left-bottom h1{
+    text-align: center;
+    top: 50%;
+    position: relative;
+    }
+    .main-right-bottom h1{
+        text-align: center;
+        top: 50%;
+        position: relative;
+        }
+nav{
+    height: 200px;
+    width: 100%;
+    background: gray;
+    color: #fff;
+}
+.main-container{
+    background: #F6F3F2;
+>>>>>>> master
+}
+.main-articles {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.article-grid {
+  margin-left: 34px;
+  margin-top: 20px;
+}
+.article-grid p{
+  margin-top: 20px;
+}
+.article-grid h1{
+font-size: 28px;
+}
+.article-box{
+  width: 85%;
+  background: red;
+  height: 400px;
+  border-radius: 5px;
+
+}
+.member-article{
+  display: flex;
+  width: 100%;
 }
