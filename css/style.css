@@ -82,7 +82,7 @@ nav .topic {
   background-color: #eee;
 }
 
-.article {
+.arti {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(70vh, auto);
@@ -455,4 +455,8 @@ footer{
   font-size: 20px;
   margin-bottom: 2rem;
 
+}
+.footer-inner li a{
+  text-decoration: none;
+  color: white;
 }
