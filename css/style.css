@@ -10,11 +10,15 @@ body {
   background-color: #eee;
 }
 
-<<<<<<< HEAD
-nav span {
+nav ul li span {
   color: #fff;
   font-size: 1.5rem;
   font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 ul {
@@ -256,7 +260,8 @@ nav .topic {
   margin: 0 auto;
 }
 
-.big-banner .rounded-box {
+.big-banner
+.rounded-box {
   position: absolute;
   top: 70%;
   transform: translateY(-50%);
@@ -336,6 +341,7 @@ nav .topic {
   margin: 21px 0;
   word-break: break-word;
 }
+
 .mini-card {
   width: 80px;
   height: 80px;
@@ -344,10 +350,12 @@ nav .topic {
   border-radius: 2px;
   float: left;
 }
+
 .items{
   display: flex;
   width: 100%;
 }
+
 .mini-details h4 {
   color: #666;
   text-transform: uppercase;
@@ -358,6 +366,7 @@ nav .topic {
   line-height: 35px;
   margin-left: 10rem;
 }
+
 .mini-details h1 {
   margin-left: 10rem;
 }
@@ -369,14 +378,13 @@ nav .topic {
   margin: 21px 0;
   word-break: break-word;
   margin-left: 10rem;
-  /* text-align: justify; */
   margin-right: 6rem;
 }
 
 .middle-banner p {
   top: 50%;
   font-size: 20px;
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 .middle-box {
@@ -391,173 +399,89 @@ nav .topic {
   font-size: 2rem;
   margin-bottom: 2rem;
 }
+
 .middle-banner {
   height: 500px;
   background-color: #878787;
   padding: 20px
 }
-.middle-bnr{
+
+.middle-bnr {
   margin-left: 6rem;
   width: 40%;
   position:absolute;
   margin-top: 4rem;
 }
-.middle-bnr h4{
+
+.middle-bnr h4 {
   margin-bottom: 2rem;
 }
-.guide-items{
+
+.guide-items {
   display: flex;
   width: 100%;
 }
-.guide{
+
+.guide {
   margin-left: 11rem;
   padding: 0 22px 150px;
   display: block;
   margin-top: 35px;
 }
-.guide h1{
+
+.guide h1 {
   margin-top: 3px;
   margin-bottom: 27px;
 }
+
 .guide ul {
   list-style-type: disc;
 }
-.guide ul li{
+
+.guide ul li { 
   padding: 11px;
   font-size: 20px;
 }
-footer{
+
+footer {
   background: grey;
   width: 100%;
   height: 500px;
-
 }
-.footer-inner ul li{
+
+.footer-inner ul li {
   float: left;
-
 }
-.footer-inner li{
+
+.footer-inner li {
   padding: 8px;
   margin-left: 18px;
   font-size: 20px;
 }
-.footer-inner ul{
+
+.footer-inner ul {
   list-style-type: disc;
 }
-.footer-inner{
+
+.footer-inner {
   color: #fff;
   width: 70%;
   margin: 0 auto;
   top: 20%;
   position: relative;
 }
-.footer-inner h1{
+
+.footer-inner h1 {
   text-align: center;
   font-size: 20px;
   margin-bottom: 2rem;
-
 }
-.footer-inner li a{
+
+.footer-inner li a {
   text-decoration: none;
   color: white;
-=======
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  nav span {
-    color: #fff;
-    font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  ul {
-    list-style-type: none;
-  }
-  
-  nav ul {
-    width: 100%;
-    display: flex;
-    height: 150px;
-    padding: 0 2%;
-    justify-content: space-between;
-    align-items: center;
-    background-color: gray;
-  }
-  
-  nav .topic {
-    border: 1px solid #fff;
-    padding: 5px;
-  }
-  
-  
-h1{
-    font-weight: 700;
-    font-family: sans-serif;
-    
 }
 
-.main-left{
-    background: rgb(148, 142, 142);
-    width: 50%;
-    float: left;
-    height: 600px;
-    color: #fff;
-}
-.main-right{
-    background: rgb(158, 156, 156);
-    width: 50%;
-    float:right;
-    height: 600px;
-    color: #fff;
-}
-
-.main-left h1{
-text-align: center;
-top: 50%;
-position: relative;
-}
-.main-right h1{
-    text-align: center;
-    top: 50%;
-    position: relative;
-    }
-    .main-left-bottom {
-        background: rgb(177, 173, 173);
-        width: 50%;
-        float: left;
-        height: 600px;
-    }
-    .main-right-bottom {
-        background: rgb(119, 113, 113);
-        width: 50%;
-        float:right;
-        height: 600px;
-    }
-    
-    .main-left-bottom h1{
-    text-align: center;
-    top: 50%;
-    position: relative;
-    }
-    .main-right-bottom h1{
-        text-align: center;
-        top: 50%;
-        position: relative;
-        }
-nav{
-    height: 200px;
-    width: 100%;
-    background: gray;
-    color: #fff;
-}
-.main-container{
-    background: #F6F3F2;
->>>>>>> master
-}
 .main-articles {
   display: flex;
   width: 100%;
@@ -569,20 +493,24 @@ nav{
   margin-left: 34px;
   margin-top: 20px;
 }
-.article-grid p{
+
+.article-grid p {
   margin-top: 20px;
 }
-.article-grid h1{
+
+.article-grid h1 {
 font-size: 28px;
 }
-.article-box{
+
+.article-box {
   width: 85%;
   background: red;
   height: 400px;
   border-radius: 5px;
-
 }
-.member-article{
+
+.member-article {
   display: flex;
   width: 100%;
 }
+
