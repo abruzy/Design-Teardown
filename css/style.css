@@ -144,9 +144,6 @@ nav .topic {
   position: absolute;
   top: 70%;
   left: 35%;
-}
-
-.rect {
   width: 100px;
   height: 30px;
   background-color: #d3d3d3;
@@ -231,7 +228,7 @@ nav .topic {
   height: 660px;
   background-color: #878787;
   border-radius: 30px;
-  padding: 20px
+  padding: 20px;
 }
 
 .small-banner p {
@@ -242,8 +239,7 @@ nav .topic {
 }
 
 .small-banner h2 {
-  padding-top: 45px;
-  padding: 45px 10px 0px 10px;
+  padding: 45px 10px 0 10px;
 }
 
 .big-banner p {
@@ -260,8 +256,7 @@ nav .topic {
   margin: 0 auto;
 }
 
-.big-banner
-.rounded-box {
+.big-banner .rounded-box {
   position: absolute;
   top: 70%;
   transform: translateY(-50%);
@@ -351,7 +346,7 @@ nav .topic {
   float: left;
 }
 
-.items{
+.items {
   display: flex;
   width: 100%;
 }
@@ -403,13 +398,13 @@ nav .topic {
 .middle-banner {
   height: 500px;
   background-color: #878787;
-  padding: 20px
+  padding: 20px;
 }
 
 .middle-bnr {
   margin-left: 6rem;
   width: 40%;
-  position:absolute;
+  position: absolute;
   margin-top: 4rem;
 }
 
@@ -438,7 +433,7 @@ nav .topic {
   list-style-type: disc;
 }
 
-.guide ul li { 
+.guide ul li {
   padding: 11px;
   font-size: 20px;
 }
@@ -451,9 +446,6 @@ footer {
 
 .footer-inner ul li {
   float: left;
-}
-
-.footer-inner li {
   padding: 8px;
   margin-left: 18px;
   font-size: 20px;
@@ -499,7 +491,7 @@ footer {
 }
 
 .article-grid h1 {
-font-size: 28px;
+  font-size: 28px;
 }
 
 .article-box {
@@ -513,4 +505,3 @@ font-size: 28px;
   display: flex;
   width: 100%;
 }
-
