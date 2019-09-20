@@ -6,5 +6,5 @@ This is an attempt to clone [Smashing Magazine](http://smashingmagazine.com) as 
 - CSS
 
 # Authors
-[Abubakar Diallo](https://github.com/abruzy)
-[Saba Younis](https://github.com/sabayounis)
+- [Abubakar Diallo](https://github.com/abruzy)
+- [Saba Younis](https://github.com/sabayounis)
